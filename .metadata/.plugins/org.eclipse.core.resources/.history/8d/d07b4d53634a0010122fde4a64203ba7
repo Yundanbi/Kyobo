@@ -1,0 +1,130 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%
+  String path = request.getContextPath();
+%>
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="UTF-8">
+        <style>
+       * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #fff;
+        padding: 50px;
+        flex-direction: column;
+
+        transform-origin: top center;
+      }
+      .logo img {
+        height: 50px;
+        margin-bottom: 30px;
+        width: 170px;
+       }
+      h2 {
+      	font-size:25px;
+      	color:#5055b1;
+       }
+      p{
+      	font-size:12px;
+      	color:gray;
+      	margin-top:10px;
+      	margin-bottom:20px;
+      }
+      .inputbox {
+      	width: 250px;
+        height: 40px;
+        background-color: white;
+        border-radius: 7px;
+        border: 1px solid #5055b1;
+        font-size: 16px;
+        margin-top: 10px;
+        font-weight: bold;
+        padding-left: 10px;
+      }
+      .checkbtn {
+      	background-color:white;
+      	border: 1px solid #d5d5d5;
+        border-radius: 2px;
+        padding:4px;
+      }
+      .btn {
+       border: 1px solid #d5d5d5;
+        border-radius: 2px;
+        width:50px;
+     	margin-top:20px;
+      }
+      .radio {
+      	margin-top:10px;
+      }
+      </style>
+    
+      <title>Insert title here</title>
+      <script type="text/javascript" src="script/member.js"></script>
+    </head>
+    <body>
+    <div class="logo">
+    <a href="<%= path %>/index.html">
+      <img src="<%= path %>/img/logo_book.svg" alt="교보문고 로고" />
+    </a>
+  	</div>
+      <h2>회원 가입</h2>
+     <p>'*' 표시 항목은 필수 입력 항목입니다.</p>
+      <form action="join.do" method="post" name="frm">
+        <table>
+          <tr>
+            <td>이름</td>
+            <td><input class="inputbox" type="text" name="username" size="20">*</td>
+          </tr>
+          <tr>
+            <td>아이디</td>
+            <td>
+              <input class="inputbox" type="text" name="userid" size="20" id="userid">*
+              <input type="hidden" name="reid" size="20"> 
+              <input class="checkbtn" type="button" value="중복 체크" onclick="idCheck()">
+            </td>
+          </tr>
+          <tr>
+            <td>암 호</td>
+            <td><input class="inputbox" type="password" name="pwd" size="20">*</td>
+          </tr>
+          <tr height="30">
+            <td width="80">암호 확인</td>
+            <td><input class="inputbox" type="password" name="pwd_check" size="20">*</td>
+          </tr>
+          <tr>
+            <td>이메일</td>
+            <td><input class="inputbox" type="text" name="email" size="20"></td>
+          </tr>
+          <tr>
+            <td>전화번호</td>
+            <td><input class="inputbox" type="text" name="phone" size="20"></td>
+          </tr>
+          <tr>
+            <td class="radio">등급</td>
+            <td>
+               <input type="radio" name="admin" value="0" checked="checked"> 일반회원 
+               <input type="radio" name="admin" value="1"> 관리자
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2" align="center">
+               <input class="btn" type="submit" value="확인" onclick="return joinCheck()"> 
+               <input class="btn" type="reset" value="취소">
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">${message }</td>
+          </tr>
+        </table>
+      </form>
+    </body>
+  </html>

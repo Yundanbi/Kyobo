@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+ #wrap {
+      width: 1250px; 
+       margin: 0 auto;
+      
+      }
+	h1 {color: #5055b1; font-size:30px;}
+      table {  width: 100% !important;}
+      table {width: 80%; border-collapse: collapse; font-size: 12px; line-height: 24px;  border: 1px solid #ccc; border-radius: 10px;}
+      table td,th {border: #d3d3d3 solid 1px;  padding: 5px; }
+      
+      th {background: #5055b1;}
+      th {color:white;}
+      img {width: 220px; height: 300px;}
+      a {text-decoration: none; color: black; }
+      a:HOVER {text-decoration: underline; color: green; }

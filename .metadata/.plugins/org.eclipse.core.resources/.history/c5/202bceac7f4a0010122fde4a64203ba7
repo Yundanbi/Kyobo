@@ -1,0 +1,12 @@
+package com.product.dao;
+
+public class BoardDAO {
+	private BoardDAO () {};
+	
+	private static BoardDAO instance = new BoardDAO();
+	
+	public static BoardDAO getinstance() {
+			return instance;
+	}
+
+}

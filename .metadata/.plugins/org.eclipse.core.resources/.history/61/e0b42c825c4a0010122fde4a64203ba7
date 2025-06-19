@@ -1,0 +1,15 @@
+package com.danbi.dao;
+
+public class MemberDAO {
+
+	public int confirmID(String userid) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	public static MemberDAO getInstance() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

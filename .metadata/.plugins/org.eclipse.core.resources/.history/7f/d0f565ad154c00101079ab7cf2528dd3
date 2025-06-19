@@ -1,0 +1,90 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+
+<%
+String path = request.getContextPath();
+if (session.getAttribute("loginUser") == null) {
+	response.sendRedirect(path + "/member/login.jsp");
+	return;
+}
+%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>프로필화면</title>
+<link href="css/profile.css" rel="stylesheet" />
+</head>
+<body>
+	<div id="wrap">
+		<div class="container">
+			<div id="top-banner">
+				<div class="banner-left"></div>
+				<div class="banner-right">
+					<a href="#">회원가입</a> | <a href="#">로그인</a> | <a href="#">회원혜택 ▼</a>
+					| <a href="#">주문배송</a> | <a href="#">매장안내</a> | <a href="#">고객센터</a>
+				</div>
+			</div>
+
+			<nav id="main-top-menu">
+				<ul>
+					<li><a href="#">교보문고</a></li>
+					<li><a href="#">eBook</a></li>
+					<li><a href="#">sam</a></li>
+					<li><a href="#">핫트랙스</a></li>
+					<li><a href="#">스토리</a></li>
+					<li><a href="#">브랜드 더보기 ▼</a></li>
+				</ul>
+			</nav>
+
+			<div id="main-header">
+				<div class="logo">
+					<a href="index.jsp"><img src="img/logo_book.svg" alt="로고" /></a>
+				</div>
+
+				<div class="search-box">
+					<input type="text" placeholder="거대한 속임수와 의외의 진실" />
+					<button></button>
+				</div>
+
+				<div class="icons">
+					<div class="benefit">이번주 혜택 UP!</div>
+					<div class="cart">
+						<img src="img/cart.png">
+					</div>
+					<div class="user">
+						<a href="#"><img src="img/prfile.png" /></a>
+					</div>
+				</div>
+				<div class="bgcolor">
+					<div class="background-img">
+						<img src="img/proback.png" alt="배경 이미지" />
+					</div>
+
+					<div class="overlay">
+						<ul>
+							<li><a href="index.jsp"><img alt="홈페이지"
+									src="img/home.png"></a></li>
+							<li>/</li>
+							<li>마이</li>
+							</ul>
+							<div>
+							<c:choose>
+								<c:when test="${not empty loginUser}">
+									${loginUser.username}님
+								</c:when>
+							</c:choose>
+							<span><a href="img/"</span>
+							</div>
+						
+					</div>
+				</div>
+
+
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

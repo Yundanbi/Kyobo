@@ -1,0 +1,56 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>프로필화면</title>
+</head>
+<body>
+ <div id="wrap">
+      <div class="container">
+        <div id="top-banner">
+          <div class="banner-left"></div>
+          <div class="banner-right">
+            <a href="#">회원가입</a> | <a href="#">로그인</a> |
+            <a href="#">회원혜택 ▼</a> | <a href="#">주문배송</a> |
+            <a href="#">매장안내</a> | <a href="#">고객센터</a>
+          </div>
+        </div>
+
+        <nav id="main-top-menu">
+          <ul>
+            <li><a href="#">교보문고</a></li>
+            <li><a href="#">eBook</a></li>
+            <li><a href="#">sam</a></li>
+            <li><a href="#">핫트랙스</a></li>
+            <li><a href="#">스토리</a></li>
+            <li><a href="#">브랜드 더보기 ▼</a></li>
+          </ul>
+        </nav>
+
+        <div id="main-header">
+          <div class="logo">
+            <a href="index.jsp"><img src="img/logo_book.svg" alt="로고" /></a>
+          </div>
+
+          <div class="search-box">
+            <input type="text" placeholder="거대한 속임수와 의외의 진실" />
+            <button></button>
+          </div>
+
+          <div class="icons">
+            <div class="benefit">이번주 혜택 UP!</div>
+            <div class="cart"><img src="img/cart.png"></div>
+            <div class="user"><a href="#"><img src="img/prfile.png"/></a></div>
+          </div>
+        </div>
+        </div>
+        </div>
+<div class="">
+
+<img src="img/proback.png"/>
+
+</div>
+</body>
+</html>

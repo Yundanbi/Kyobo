@@ -1,0 +1,26 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+pageEncoding="UTF-8"%>
+<%
+    String path = request.getContextPath();
+%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>회원탈퇴</title>
+</head>
+<body>
+<form method="get" action="delete.do">
+<h2>비밀번호 확인</h2>
+<c:if test="${not empty message}">
+  <p style="color:red;">${message}</p>
+</c:if>
+<form method="post" action="<%= path %>/delete.do.do">
+  비밀번호: <input type="password" name="pwd" required />
+  <input type="submit" value="탈퇴하기" />
+</form>
+<input type="button" value="홈화면가기" onclick="location.href='/kyobo/index.jsp'">
+</form>
+
+</body>
+</html>

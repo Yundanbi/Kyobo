@@ -1,0 +1,22 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<c:url "img/snowman.jpg" var="data"></c:url>
+	<p>${data }</p>
+	<img src="${data}" width='250' height='150'>
+	<br>
+	<br>
+	<br>
+	<c:url value="https://hips.hearstapps.com/goodhousekeeping/assets/17/30/pembroke-welsh-corgi.jpg" var="dog"></c:url>
+	<p>${dog}</p>
+	<img src="${dog}" width='150' height='200'>
+</body>
+</html>

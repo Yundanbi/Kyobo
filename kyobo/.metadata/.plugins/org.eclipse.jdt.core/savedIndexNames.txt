@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+C:\Works\Jsp_0603\kyobo\.metadata\.plugins\org.eclipse.jdt.core
+3162521194.index
+4212537748.index
+1865797976.index

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+	  <form action="/kyobo/LoginServlet" method="post">
+    <div>
+      <div class="logo">
+        <img src="img/logo_book.svg" alt="교보문고 로고" />
+      </div>
+      <input type="text" value="아이디를 입력해주세요" />
+      <input type="password" value="비밀번호를 입력해주세요" />
+      <input type="button" value="submit" />
+    </div>
+    </form>
+  </body>
+</html>
