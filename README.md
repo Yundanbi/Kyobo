@@ -31,6 +31,13 @@
 - 📚 관리자만 도서등록, 수정, 삭제
 
 ---
+## 🎬 기능 설명 영상
+<p 회원가입/>
+![회원가입](https://github.com/user-attachments/assets/2a38e057-2fc1-48eb-b140-870ec01a0fd6)
+
+
+
+---
 
 ## 🔎 기능 설명 (PPT)
 
@@ -98,14 +105,6 @@
 <p align="center">
   <img src="https://github.com/user-attachments/assets/71dc8e7c-4df3-4cfc-a919-7894cefef81e" width="45%" />
 </p>
----
-
-## 🎬 기능 설명 영상
-
-![기능설명영상](./demo.gif)  
-※ 또는 YouTube 링크:
-
-[📺 YouTube로 보기](https://youtu.be/영상링크)
 
 ---
 
