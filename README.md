@@ -47,11 +47,12 @@
 ### 📌 일반회원 접근불가 페이지
 ![접근불가](https://github.com/user-attachments/assets/6c16068b-8461-465b-988e-04352b1710c4)
 
+### 📌 게시글 등록/삭제
+![게시글등록삭제](https://github.com/user-attachments/assets/9b28ab06-a3aa-4427-bb8e-e4ba2b97bc66)
+
 ### 📌 도서 등록/삭제
 ![도서등록삭제](https://github.com/user-attachments/assets/c95090b8-5bd3-4818-9eb9-b62eb5a93126)
 
-### 📌 게시글 등록/삭제
-![게시글등록삭제](https://github.com/user-attachments/assets/9b28ab06-a3aa-4427-bb8e-e4ba2b97bc66)
 
 
 
