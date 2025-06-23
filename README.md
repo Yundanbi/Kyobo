@@ -1,9 +1,9 @@
 # 📚 Kyobo Project
 
 교보문고 웹사이트를 프론트앤드 + jsp로 구현한 프로젝트입니다.
-### 📚 메인페이지
+### 📂 메인페이지
 ![image](https://github.com/user-attachments/assets/6c0baabf-fd11-42d4-b172-4e641af4c5e2)
-### 📚 서브페이지
+### 📂 서브페이지
 ![image](https://github.com/user-attachments/assets/a29e346d-2762-4ce5-bca9-80667f046691)
 
 ---
