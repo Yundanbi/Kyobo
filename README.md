@@ -39,7 +39,10 @@
   <img src="https://github.com/user-attachments/assets/f6b34cbd-dd82-4dd7-8a2e-40238c8ee9f1" width="45%" />
   <img src="https://github.com/user-attachments/assets/478deb28-4b32-4abc-9a9f-682ecdb64c5c" width="45%" />
 </p>
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/93f5384b-0c60-4495-86f0-52320a72cd4a" width="45%" />
+  <img src="https://github.com/user-attachments/assets/04ab1fbc-185b-4f1e-a715-a59f285301ba" width="45%" />
+</p>
 ---
 
 ## 🎬 기능 설명 영상
