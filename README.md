@@ -33,7 +33,8 @@
 ---
 ## 🎬 기능 설명 영상
 <p 회원가입/>
-![회원가입](https://github.com/user-attachments/assets/2a38e057-2fc1-48eb-b140-870ec01a0fd6)
+![Image](https://github.com/user-attachments/assets/c11a5790-a4e4-41de-a887-897d9ea0c86b)
+회원가입
 
 
 
