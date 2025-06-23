@@ -10,7 +10,7 @@ pageEncoding="UTF-8"%>
 </head>
 <body>
    <div id="wrap" align="center">
-          <h1>상품 삭제 - 관리자 페이지</h1>
+          <h1>도서 삭제 - 관리자 페이지</h1>
           <form action="productDelete.do" method="post">
             <table>
               <tr>

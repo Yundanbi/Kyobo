@@ -152,7 +152,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="C:\Works\Jsp_0603\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\Works\Jsp_0603\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\kyobo" path="/kyobo" reloadable="true" source="org.eclipse.jst.jee.server:kyobo">
+      <Context docBase="C:\Works\kyobo\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\Works\kyobo\.metadata\.plugins\org.eclipse.wst.server.core\tmp1\wtpwebapps\kyobo" path="/kyobo" reloadable="true" source="org.eclipse.jst.jee.server:kyobo">
       <Resource auth="Container" driverClassName="com.mysql.cj.jdbc.Driver" maxIdle="10" maxTotal="20" maxWaitMillis="-1" name="jdbc/estoreDB" password="1234" type="javax.sql.DataSource" url="jdbc:mysql://localhost:3306/estore" username="root"/>
 	</Context>
       </Host>

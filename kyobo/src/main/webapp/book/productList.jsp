@@ -107,7 +107,7 @@ footer.footer {
 		<table class="list">
 			<tr>
 				<td colspan="5" style="border: white; text-align: left"><a
-					href="productWrite.do" class="productbtn">상품 등록</a></td>
+					href="productWrite.do" class="productbtn">도서 등록</a></td>
 			</tr>
 			<tr>
 				<th>번호</th>
@@ -131,9 +131,9 @@ footer.footer {
 		
 					<td>${product.productName}</td>
 					<td>${product.price}원</td>
-					<td><a href="productUpdate.do?code=${product.code}">상품 수정</a>
+					<td><a href="productUpdate.do?code=${product.code}">도서 수정</a>
 					</td>
-					<td><a href="productDelete.do?code=${product.code}">상품 삭제</a>
+					<td><a href="productDelete.do?code=${product.code}">도서 삭제</a>
 					</td>
 				</tr>
 			</c:forEach>

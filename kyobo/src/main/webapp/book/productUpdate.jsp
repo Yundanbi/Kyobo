@@ -11,7 +11,7 @@
 </head>
 <body>
 	<div id="wrap" align="center">
-		<h1>상품 수정 - 관리자 페이지</h1>
+		<h1>도서 수정 - 관리자 페이지</h1>
 		<form method="post" enctype="multipart/form-data" name="frm">
 			<input type="hidden" name="code" value="${product.code}"> <input
 				type="hidden" name="nonmakeImg" value="${product.pictureUrl}">

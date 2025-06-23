@@ -11,7 +11,7 @@ pageEncoding="UTF-8"%>
 </head>
 <body>
 <div id="wrap" align="center">
-          <h1>상품 등록 - 관리자 페이지</h1>
+          <h1>도서 등록 - 관리자 페이지</h1>
           <form method="post" enctype="multipart/form-data" name="frm">
             <table>
               <tr>

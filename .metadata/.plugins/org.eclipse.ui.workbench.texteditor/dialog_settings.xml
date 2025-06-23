@@ -13,8 +13,9 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="event_2"/>
+		<item key="selection" value="slider"/>
 		<list key="findhistory">
+			<item value="slider"/>
 			<item value="event_2"/>
 			<item value="sale"/>
 			<item value="menu"/>
@@ -29,7 +30,6 @@
 			<item value="booklist"/>
 			<item value="benefit"/>
 			<item value="#007aff"/>
-			<item value="f7f7f7"/>
 		</list>
 		<list key="replacehistory">
 			<item value=""/>

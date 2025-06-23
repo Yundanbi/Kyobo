@@ -24,7 +24,7 @@ public class BoardServlet extends HttpServlet {
 		Action action = af.getAction(command);
 
 		if(action != null){
-		  action.execute(request, response);   //execute메소드 아직 구현안했음
+		  action.execute(request, response);  
 		}
 
 	}
