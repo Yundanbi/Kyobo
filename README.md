@@ -42,7 +42,8 @@
 
 ## 🔎 기능 설명 (PPT)
 
-👉 [기능 설명 PPT 보기](./docs/kyobo_presentation.pdf)  
+👉 [기능 설명 PPT 보기] [교보문고JSP구현.pdf](https://github.com/user-attachments/files/20856751/JSP.pdf)
+
 <p align="center">
   <img src="https://github.com/user-attachments/assets/f6b34cbd-dd82-4dd7-8a2e-40238c8ee9f1" width="45%" />
   <img src="https://github.com/user-attachments/assets/478deb28-4b32-4abc-9a9f-682ecdb64c5c" width="45%" />
