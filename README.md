@@ -32,9 +32,27 @@
 
 ---
 ## 🎬 기능 설명 영상
-<p 회원가입/>
-![Image](https://github.com/user-attachments/assets/c11a5790-a4e4-41de-a887-897d9ea0c86b)
-회원가입
+### 📌 회원가입
+![회원가입](https://github.com/user-attachments/assets/c11a5790-a4e4-41de-a887-897d9ea0c86b)
+
+### 📌 중복체크 / 아이디 유효검사
+![중복체크](https://github.com/user-attachments/assets/9872e6c4-d108-4e8f-bc0f-9b2673bd0029)
+
+### 📌 로그인 실패
+![로그인실패](https://github.com/user-attachments/assets/32512985-a995-49c1-b9c5-c395b0ebd1ff)
+
+### 📌 로그인 후 회원정보 수정
+![회원수정](https://github.com/user-attachments/assets/9331c4ca-b25f-4d59-81a0-80ad9c9472bf)
+
+### 📌 일반회원 접근불가 페이지
+![접근불가](https://github.com/user-attachments/assets/6c16068b-8461-465b-988e-04352b1710c4)
+
+### 📌 도서 등록/삭제
+![도서등록삭제](https://github.com/user-attachments/assets/c95090b8-5bd3-4818-9eb9-b62eb5a93126)
+
+### 📌 게시글 등록/삭제
+![게시글등록삭제](https://github.com/user-attachments/assets/9b28ab06-a3aa-4427-bb8e-e4ba2b97bc66)
+
 
 
 
